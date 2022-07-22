@@ -1,0 +1,112 @@
+/*Large screen*/
+@media only screen and (max-width:1300px) {
+	
+}
+
+@media only screen and (min-width:1025px) and (max-width:1200px) {
+	.menu_area li {
+        padding-right: 12px;
+    }
+}
+
+/* Tablet Layout waid */
+@media only screen and (min-width:992px) and (max-width:1024px) {
+	.menu_area li {
+        padding-right: 12px;
+    }
+    .vantagens_list_inner li {
+        padding-bottom: 0px;
+    }
+    #footer_area p {
+        font-size: 12px;
+    }
+    .section_title h2 {
+        font-size: 30px;
+    }
+}
+
+/* tablet */
+@media only screen and (max-width:991px) {
+	.menu_toggle {
+        display: block;
+    }
+    .menu_area, .header_btn {
+        display: none;
+    }
+    .menu_toggle {
+        top: 22px;
+    }
+    .header_btn {
+        padding-top: 15px;
+    }
+    .header_btn a {
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+    .vantagens_list_inner li p {
+        font-size: 12px;
+    }
+    .footer_content {
+        margin-bottom: 30px;
+    }
+    .ambientes_content_text p {
+        font-size: 14px;
+    }
+    .section_title h2 {
+        font-size: 30px;
+    }
+    .about_section_title h2 {
+        font-size: 20px;
+    }
+    .about_text_single_item p, .slider_single_item p {
+        font-size: 12px;
+    }
+    #footer_area p {
+        font-size: 12px;
+    }
+    
+}
+
+/* Mobile Layout */
+@media only screen and (max-width: 767px) {
+    #header_area {
+        padding: 80px 0;
+    }
+    .vantagens_list_inner li {
+        padding-left: 15px;
+    }
+    .contact_message_btn a {
+        font-size: 25px;
+        padding: 2px 12px;
+    }
+    .form-row input {
+        margin-bottom: 15px;
+    }
+    .tab_img_item {
+        text-align: center;
+    }
+    .tabs_heading li {
+        padding-right: 8px;
+    }
+    .tabs_heading li a {
+        font-size: 14px;
+    }
+    .ambientes_content_text p {
+        font-size: 12px;
+    }
+    .image_content_section.left .hero_benifics_item {
+        padding-left: 50px;
+        width: 50%;
+        float: right;
+    }
+    .about_text_single_item {
+        margin-bottom: 30px;
+    }
+}
+
+/* small scren*/
+@media only screen and (max-width:575px) {
+	.slider_single_item {
+        padding: 30px 30px;
+    }
+}
